@@ -1,3 +1,34 @@
 body {
-  background: blanchedalmond;
+  background: grey;
 }
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  border-spacing: 5px 1rem;
+}
+
+.a{
+flex: 1 15em;
+width: auto;
+height: 30px;
+background-color: black;
+padding: 1em;
+
+}
+
+.b{
+  background-color: darkslategrey;
+  width: auto;
+height: 30px;
+flex: 2 70em;
+}
+
+.c{
+  background-color: black;
+  width: auto;
+height: 30px;
+flex: 3 15em;
+padding: 1em;
+}
+
